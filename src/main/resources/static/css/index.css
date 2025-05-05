@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    text-align: right;
+}
+
+.search-icon {
+    position: relative;
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button svg {
+    width: 16px;
+    height: 16px;
+    fill: #777;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.edit-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.edit-button svg {
+    width: 14px;
+    height: 14px;
+    fill: #555;
+}
+
+.delete-button {
+    background-color: #fff;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.options-button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.checkbox-cell {
+    text-align: center;
+    width: 30px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-row-button {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.add-row-button svg {
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.pagination-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #777;
+}
+
+.pagination-track {
+    flex-grow: 1;
+    height: 4px;
+    background-color: #ccc;
+    margin: 0 10px;
+    position: relative;
+}
+
+.pagination-handle {
+    width: 10px;
+    height: 10px;
+    background-color: #666;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 0;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.kdv-settings {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.kdv-settings select {
+    width: auto;
+    margin-left: 10px;
+}
+
+/* Checkbox stilini özelleştirme */
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
