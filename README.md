@@ -3,9 +3,9 @@
 Bu proje, basit bir fatura takip sistemidir. Backend geliştirme pratiği için yapılmıştır.
 
 ## 🚀 Kullanılan Teknolojiler
-- Java Spring Boot (veya ASP.NET Core MVC)
-- Maven / Entity Framework Core
-- MySQL / MS SQL Server
+- Java Spring Boot
+- Maven 
+- MySQL
 - HTML, Bootstrap
 - Katmanlı Mimari (MVC + Service + Repository)
 
